@@ -50,7 +50,7 @@ public class State {
             }
         }
 
-        string += "]";
+        string += " ]";
         return string;
     }
 
@@ -153,7 +153,7 @@ public class State {
             iter1.previous();
 
             id = 3;
-        } else if (int0 != null && int1 != null) {
+        } else if (int0 != null && int1 == int0) {
             iter0.previous();
             iter0.previous();
 
